@@ -103,9 +103,11 @@ nav a{
    	background-color:#4FC3F7;
    	font-family: 'Press Start 2P', cursive;
  	  color:#ECF0F1;
+    word-spacing: 1px;
+    line-height: 40px;
     font-size:35px;
-    margin: 10px -8px 10px -8px;
-    padding: 20px 10px 10px 20px;
+    margin: 10px -8px 30px -8px;
+    padding: 20px 10px 30px 20px;
     border:10px solid #ECF0F1;
     text-align: center;
     }
