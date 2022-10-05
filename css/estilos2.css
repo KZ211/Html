@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=League+Gothic&display=swap');
+
+body{
+  background: linear-gradient(90deg, rgba(113,111,117,1) 10%, rgba(201,199,204,1) 35%, rgba(231,237,238,1) 100%);
+  border-radius: 5px;
+}
+.header{
+  border-bottom: 5px solid black;
+  display: flex;
+  justify-content: space-between;
+  font-family: 'League Gothic', sans-serif;
+  background: rgb(113,111,117);
+  background: linear-gradient(90deg, rgba(113,111,117,1) 10%, rgba(201,199,204,1) 35%, rgba(231,237,238,1) 100%);
+  border-radius: 5px;
+}
+.logo{
+  display: flex;
+  justify-content: start;
+  align-items: flex-start;
+  margin-top: 10px;
+}
+.logo img{
+  width: 60px;
+  height: 60px;
+}
+.nav{
+  display: flex;
+  justify-content: end;
+  align-items: flex-end;
+}
+.snav{
+  font-size: 25px;
+  color: black;
+  text-decoration: none;
+  padding: 3px;
+  margin-right: 5px;
+  margin-bottom: 20px;
+}
+.snav:hover{
+  border-bottom: 2px solid black;
+}
